@@ -7,6 +7,10 @@ from fastapi import FastAPI,File, UploadFile
 
 app=FastAPI()
 
+@app.get("/")
+async def test():
+    return "Succesfull Deployment"
+
 @app.post("/")
 async def root(image: UploadFile = File(...)):
     path_to_image = "./input/"+image.filename

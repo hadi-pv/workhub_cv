@@ -140,6 +140,6 @@ class TableExtractor:
     
     def store_process_image(self, file_name, image):
         path = "./images/" + file_name
-        cv2.imwrite(path, image)
+        # cv2.imwrite(path, image)
         
         

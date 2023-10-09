@@ -132,6 +132,7 @@ class OcrToTableTool:
             current_row = []
 
     def get_result_from_tesseract(self, image_path, digits=False):
+        pytesseract.pytesseract.tesseract_cmd = "./tesseract/tesseract"
         if digits:
             output = pytesseract.image_to_string(Image.open(image_path),config="outputbase digits") 
         else:

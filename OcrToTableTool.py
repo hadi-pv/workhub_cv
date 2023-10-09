@@ -147,7 +147,7 @@ class OcrToTableTool:
 
     def store_process_image(self, file_name, image):
         path = "./images3/" + file_name
-        # cv2.imwrite(path, image)
+        cv2.imwrite(path, image)
 
     def generate_orderidlist(self):
         orderids=[]

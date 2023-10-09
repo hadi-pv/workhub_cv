@@ -17,5 +17,4 @@ pydantic_core
 pytesseract
 python-dateutil
 python-multipart
-requests
-uvicorn==0.23.2
+uvicorn

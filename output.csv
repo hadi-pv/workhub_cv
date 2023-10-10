@@ -1,5 +1,10 @@
-Order ID
-,Veg/NonVeg | Mealtype | |,Date of Delivery Delivered,Ordered on
+Order ID,User Email
+
+Veg / Non Veg
+
+Meal,Date of Delivery
+
+Delivered,Ordered on
 19,test@gmail.com,Veg,Lunch,15-09-2023,,14-09-2023
-22,test2@gmail.com,Veg,Lunch,15-09-2023,14-09-2023
+22,test2@gmail.com,Veg,Lunch,15-09-2023,,14-09-2023
 23,test@gmail.com,Veg,Lunch,15-09-2023,,14-09-2023
